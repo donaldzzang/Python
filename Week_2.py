@@ -24,6 +24,15 @@ print(d)
 x = np.arange(101)
 
 # 2-1
+is_prime = np.ones((101,) , dtype = bool)
+is_prime[:2] = False
+
+for i in range(101):
+    if is_prime[i]:
+        is_prime[i*i:101:i] = False
+
+y = x[is_prime]
+print(y)
 
 
 

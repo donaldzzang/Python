@@ -36,3 +36,6 @@ print(len(study_list))
 # 4 => X
 
 # 5 => X
+
+
+#깃허브 테스트용

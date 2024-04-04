@@ -11,7 +11,7 @@
 
 import numpy as np
 
-#1-1
+#1
 Hit = 0
 Try = 1
 while Hit == 0:
@@ -47,7 +47,14 @@ while Hit == 0:
     else:
         Try += 1
 
-#1-2
 
+#2-1
+arr1 = np.random.randint(low = 0, high = 11, size = (np.random.randint(low = 0, high = 11, size = None), np.random.randint(low = 0, high = 11, size = None)))
+print(arr1)
 
-#2
+arr2 = np.random.randint(low = 0, high = 11, size = (np.random.randint(low = 0, high = 11, size = None), np.random.randint(low = 0, high = 11, size = None)))
+print(arr2)
+
+#2-2
+arr3 = arr1 + arr2
+print(arr3)

@@ -1,6 +1,6 @@
 # 실습문제
 
-# 0
+# 0 
 import numpy as np
 
 # 1
@@ -8,7 +8,7 @@ a = np.arange(216).reshape(6,6,6)
 print(a)
 
 # 1-1
-b = a[:, 5, ::2].flatten()
+b = a[:, -1, ::2].flatten()
 print(b)
 
 # 1-2
